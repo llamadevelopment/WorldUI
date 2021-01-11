@@ -1,0 +1,20 @@
+# If you want a permission for /world set this to true.
+UsePermission: false
+
+# Load worlds on start
+LoadWorlds:
+  - "world"
+  - "nether"
+
+# Hidden worlds
+HiddenWorlds:
+  - "SecretWorld"
+  - "AnotherSecretWorld"
+
+Commands:
+  World:
+    Name: "world"
+    Description: "Teleport to a world."
+    Permission: "worldui.world"
+    Usage: "/world"
+    Aliases: ["worlds", "worldui", "w"]

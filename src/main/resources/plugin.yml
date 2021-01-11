@@ -1,0 +1,5 @@
+name: WorldUI
+version: 1.0.0
+api: 1.0.0
+main: net.lldv.worldui.WorldUI
+author: Proxma
